@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+#GeneratedApp::Application.routes.draw do  #Michael Hartl's way but did not work for db:migrate
+  resources :microposts
+  resources :users
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
